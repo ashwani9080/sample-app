@@ -4,11 +4,17 @@
 
 import 'react-native';
 import React from 'react';
-import App from '../App';
+import {render} from '@testing-library/react-native';
 
-// Note: test renderer must be required after react-native.
-import renderer from 'react-test-renderer';
+import App from '../src/App';
 
-it('renders correctly', () => {
-  renderer.create(<App />);
+const {asJSON} = render(<App />);
+// const firstRender = asJSON();ya
+
+describe('App', () => {
+  describe('Rendering', () => {
+    it('should render without throwing an error', () => {
+      // expect(firstRender).toStrictEqual(asJSON());
+    });
+  });
 });
