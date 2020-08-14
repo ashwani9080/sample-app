@@ -1,1 +1,21 @@
-{}
+{
+  "login.title": "TRANSIT",
+  "login.button": "Log in",
+  "login.username": "Username",
+  "login.password": "Password",
+  "login.forget": "Forgot password",
+  "login.reset": "Reset your password",
+  "login.reset.message": "Please contact the transit manager to get your new password",
+  "login.usernameError": "Username cannot be empty",
+  "login.passwordError": "Password cannot be empty",
+  "login.invalidLogin": "Username or Password is invalid",
+  "heading.pickup": "Confirm car pick-up",
+  "heading.dropoff": "Confirm car drop off",
+  "request.centerTitle": "Inspection center",
+  "request.warehouseTitle": "Warehouse name",
+  "button.accept": "Accept",
+  "button.decline": "Decline",
+  "button.confirm": "Confirm arrival",
+  "button.back": "Back",
+  "button.dismiss": "Dismiss"
+}

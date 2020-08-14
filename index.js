@@ -1,31 +1,23 @@
 /**
  * @format
  */
+import 'react-native-gesture-handler';
+import {AppRegistry} from 'react-native';
+// import {decode, encode} from 'base-64';
 import 'intl';
 import 'intl/locale-data/jsonp/en';
-import 'react-native-gesture-handler';
-import React from 'react';
-import {AppRegistry} from 'react-native';
-import {Provider} from 'react-redux';
-import {IntlProvider} from 'react-intl';
-import {NavigationContainer} from '@react-navigation/native';
+import 'intl/locale-data/jsonp/es';
+import 'intl/locale-data/jsonp/id';
 
 import App from './src/App';
 import {name as appName} from './app.json';
-import store from '@store/store';
-import {getLocale, getMessages} from '@utils/commonFunctions';
 
-const locale = getLocale();
-const messages = getMessages();
+// if (!global.btoa) {
+//   global.btoa = encode;
+// }
 
-const renderApp = () => (
-  <Provider store={store}>
-    <IntlProvider locale={locale} messages={messages[locale]}>
-      <NavigationContainer>
-        <App />
-      </NavigationContainer>
-    </IntlProvider>
-  </Provider>
-);
+// if (!global.atob) {
+//   global.atob = decode;
+// }
 
-AppRegistry.registerComponent(appName, () => renderApp);
+AppRegistry.registerComponent(appName, () => App);

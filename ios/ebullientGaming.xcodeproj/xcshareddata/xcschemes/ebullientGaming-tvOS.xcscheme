@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-               BuildableName = "ebullientGaming-tvOS.app"
-               BlueprintName = "ebullientGaming-tvOS"
-               ReferencedContainer = "container:ebullientGaming.xcodeproj">
+               BuildableName = "sampleApp-tvOS.app"
+               BlueprintName = "sampleApp-tvOS"
+               ReferencedContainer = "container:sampleApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "ebullientGaming-tvOSTests.xctest"
-               BlueprintName = "ebullientGaming-tvOSTests"
-               ReferencedContainer = "container:ebullientGaming.xcodeproj">
+               BuildableName = "sampleApp-tvOSTests.xctest"
+               BlueprintName = "sampleApp-tvOSTests"
+               ReferencedContainer = "container:sampleApp.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "ebullientGaming-tvOS.app"
-            BlueprintName = "ebullientGaming-tvOS"
-            ReferencedContainer = "container:ebullientGaming.xcodeproj">
+            BuildableName = "sampleApp-tvOS.app"
+            BlueprintName = "sampleApp-tvOS"
+            ReferencedContainer = "container:sampleApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "ebullientGaming-tvOS.app"
-            BlueprintName = "ebullientGaming-tvOS"
-            ReferencedContainer = "container:ebullientGaming.xcodeproj">
+            BuildableName = "sampleApp-tvOS.app"
+            BlueprintName = "sampleApp-tvOS"
+            ReferencedContainer = "container:sampleApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

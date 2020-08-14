@@ -1,5 +1,4 @@
 // Colors naming helper: http://chir.ag/projects/name-that-color/
-import countryConfig from '@config/countryConfig';
 
 const rawColors = {
   // base colors
@@ -176,13 +175,5 @@ const colorMapping = {
 const Colors = {};
 
 Colors.raw = rawColors;
-
-Object.keys(colorMapping).forEach((colorName) => {
-  Colors[colorName] =
-    rawColors[
-      colorMapping[colorName][countryConfig.countryCode] ||
-        colorMapping[colorName].default
-    ];
-});
 
 export default Colors;
